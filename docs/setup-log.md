@@ -42,6 +42,8 @@
 - Fix: patched line 55 to strip the port — `'domain' => explode(':', $_SERVER['HTTP_HOST'])[0]`
 - Verified: confirmed via curl round-trip that `PHPSESSID` now persists across requests, and DB now shows `users` and `guestbook` tables created successfully
 - **Caveat:** this fix lives inside the running container's filesystem, not the source image — it will be wiped if the container is rebuilt or `docker compose down` is run. Worth re-applying or turning into a proper patch/volume mount later.
+- Confirmed login (admin/password) successful — full DVWA dashboard loaded
+
 
 ## Next steps
 - Set DVWA security level to Low, run first attack (SQL injection) from Kali
