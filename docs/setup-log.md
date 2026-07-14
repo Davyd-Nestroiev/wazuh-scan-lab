@@ -34,13 +34,20 @@
 - Hit a `docker.socket` conflict mid-install (new packages overwrote existing systemd units) — resolved with `systemctl daemon-reload` + `reset-failed` on both units
 - Cloned `cytopia/dvwa`, ran `make start` → failed: Makefile hardcodes the legacy `docker-compose` (hyphenated) binary name, which doesn't exist since we installed the plugin version
 
+## 2026-07-14 — Login loop bug: hardcoded cookie domain
+
+- Symptom: DVWA login kept looping back to the login page with no visible error, in both browser and via curl
+- Diagnostic path: verified DB connectivity (OK) → checked CSRF token logic (`checkToken()`) → traced to session cookies not persisting → found `Set-Cookie` header included the port (`domain=192.168.99.130:8000`), which is invalid per cookie spec — browsers/curl silently reject it
+- Root cause: `dvwaPage.inc.php` line 55 sets the session cookie domain directly from `$_SERVER['HTTP_HOST']`, which includes the port on a non-standard port setup (`:8000`)
+- Fix: patched line 55 to strip the port — `'domain' => explode(':', $_SERVER['HTTP_HOST'])[0]`
+- Verified: confirmed via curl round-trip that `PHPSESSID` now persists across requests, and DB now shows `users` and `guestbook` tables created successfully
+- **Caveat:** this fix lives inside the running container's filesystem, not the source image — it will be wiped if the container is rebuilt or `docker compose down` is run. Worth re-applying or turning into a proper patch/volume mount later.
+
 ## Next steps
-- Run `docker compose up -d` directly (bypassing the Makefile)
-- Confirm containers with `docker compose ps`
-- Access DVWA at `192.168.99.130:8000`, complete DB setup
 - Set DVWA security level to Low, run first attack (SQL injection) from Kali
 - Check Wazuh dashboard for the resulting alert
 - Screenshot the full chain: attack → exploit → Wazuh alert → log detail
+- Write up findings as a short LinkedIn post / portfolio entry
 
 ## Concepts learned
 - NAT vs Bridged networking
