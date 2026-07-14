@@ -9,10 +9,10 @@ home lab using wazuh tool to scan suspicious activity inside virtual environment
 ## Status 
 In progress 
 
-# what i did
+## what i did
 _(coming soon)
 
-# Troubleshooting notes
+## Troubleshooting notes
 _(coming soon)
 
 ## screenshots
