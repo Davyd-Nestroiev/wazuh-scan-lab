@@ -14,4 +14,4 @@ This lab simulates a small internal network under attack. Three systems are used
 🚧 In progress
 
 ## Documentation
-Full build log, troubleshooting notes, and next steps: [`docs/setup-log.md`](docs/setup-log.md)
+1. [Preparation](01-preparation.md)
