@@ -19,3 +19,16 @@ Build a purple-team home lab to safely practice offensive (attack) and defensive
 | Victim VM | Ubuntu 24.04, hostname `ubuntu-4ubrick`, IP `192.168.99.130` |
 | Attacker VM | Kali Linux 2026.2, hostname `kali-attacker`, IP `192.168.99.131` |
 | Networking | All VMs on NAT, same subnet (`192.168.99.0/24`), confirmed via ping |
+
+## Setup
+
+- SSH access confirmed to the victim VM (`ssh davyd@192.168.99.130`)
+- Kali attacker VM built and confirmed able to reach the victim VM over the network
+- Metasploitable2 was ruled out (x86_64-only, incompatible with Apple Silicon); DVWA was chosen instead, since it runs natively on ARM via Docker, and was deployed directly on the victim VM so Wazuh has visibility into any attack traffic
+- Wazuh agent installed on the victim VM and confirmed active/connected in the Wazuh dashboard
+
+For setup issues encountered along the way and how they were resolved, see [Troubleshooting](troubleshooting.md).
+
+## Monitoring baseline
+
+Before running any attacks, the Wazuh agent on the victim VM was confirmed active and connected in the dashboard, with no prior alerts generated.
