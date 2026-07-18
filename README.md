@@ -16,3 +16,4 @@ This lab simulates a small internal network under attack. Three systems are used
 ## Documentation
 1. [Preparation](01-preparation.md)
 2. [Reconnaissance](02-reconnaissance.md)
+3. [Vulnerability-Analysis][03-vulnerability-analysis.md]
