@@ -14,7 +14,7 @@ nmap -sV 192.168.99.130: Ran against the confirmed target (4ubrick) to enumerate
 
 ### 3. Web Enumeration
 
-whatweb -a 3 http://192.168.99.130:  Ran a web enumeration scan at third aggression level against DVWA — confirmed the application, tech stack, and session cookie behavior.
+whatweb -a 3 http://192.168.99.130:  Ran a web enumeration scan at aggression level 3 against DVWA — confirmed the application, tech stack, and session cookie behavior.
 
 ### 4. Web Vulnerability 
 
@@ -38,7 +38,7 @@ Confirmed DVWA is running with security level set to "medium" and a PHP 8.1.16 b
 
 Confirmed /login.php as the login entry point (independent verification); flagged both PHP 8.1.16 and Apache 2.4.54 as outdated versions, worth checking for exploits; found the DVWA security cookie is missing the HttpOnly flag, meaning it's readable/modifiable via client-side script.
 
-## Scressnshots
+## Screenshots
 
 1. Host Discovery
 <img width="473" height="289" alt="image" src="https://github.com/user-attachments/assets/ee45657e-5301-43bf-994e-eee580238355" />
@@ -54,3 +54,4 @@ Confirmed /login.php as the login entry point (independent verification); flagge
 
 
 ## Next Steps 
+Proceed to Vulnerability Analysis — cross-reference identified service versions (OpenSSH 9.6p1, Apache 2.4.54, PHP 8.1.16) against known CVEs to determine exploitability ahead of the Exploitation stage.
