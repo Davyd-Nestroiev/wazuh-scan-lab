@@ -53,5 +53,7 @@ Confirmed /login.php as the login entry point (independent verification); flagge
 <img width="779" height="589" alt="image" src="https://github.com/user-attachments/assets/d94c76fa-5bbc-4c60-be11-0f7c393d1004" />
 
 
-## Next Steps 
+## Next Steps
 Proceed to Vulnerability Analysis — cross-reference identified service versions (OpenSSH 9.6p1, Apache 2.4.54, PHP 8.1.16) against known CVEs to determine exploitability ahead of the Exploitation stage.
+
+→ [03 - Vulnerability Analysis](03-vulnerability-analysis.md)
