@@ -32,3 +32,7 @@ For setup issues encountered along the way and how they were resolved, see [Trou
 ## Monitoring baseline
 
 Before running any attacks, the Wazuh agent on the victim VM was confirmed active and connected in the dashboard, with no prior alerts generated.
+
+## Next Step
+Proceed to Reconnaissance — begin identifying live hosts and enumerating exposed services on the target.
+→ [02 - Reconnaissance](02-reconnaissance.md)
