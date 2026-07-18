@@ -15,3 +15,4 @@ This lab simulates a small internal network under attack. Three systems are used
 
 ## Documentation
 1. [Preparation](01-preparation.md)
+2. [Reconnaissance](02-reconnaissance.md)
