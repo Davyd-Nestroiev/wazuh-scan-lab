@@ -31,3 +31,4 @@ and NIST SP 800-61 / PICERL (defender side):
 1. [Preparation](01-preparation.md)
 2. [Reconnaissance](02-reconnaissance.md)
 3. [Vulnerability-Analysis](03-vulnerability-analysis.md)
+4. [Exploitation](04-exploitation.md)
