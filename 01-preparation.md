@@ -3,20 +3,6 @@
 ## Objective 
 Build a purple-team home lab to safely practice offensive (attack) and defensive (detection/response) workflows, then document the full cycle against PTES (attack side) and NIST SP 800-61 / PICERL (defense side) as a portfolio piece.
 
-## Project Documentation Structure 
-
-This project is documented across 8 stages, following PTES (attacker side) 
-and NIST SP 800-61 / PICERL (defender side):
-
-1. Preparation — lab build + baseline
-2. Reconnaissance / Information Gathering — nmap scans, service enumeration
-3. Vulnerability Analysis — CVE research per exposed service
-4. Exploitation — SQLi against DVWA
-5. Identification — Wazuh detection of the attack
-6. Containment
-7. Eradication & Recovery
-8. Post-Incident Activity — lessons learned / report
-
 ## Scope
 - **Attacker:** Kali Linux VM
 - **Target:** DVWA (Damn Vulnerable Web Application) running on an Ubuntu victim VM
