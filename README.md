@@ -25,7 +25,7 @@ and NIST SP 800-61 / PICERL (defender side):
 8. Post-Incident Activity — lessons learned / report
 
 ## Status 
-🚧 In progress
+🚧 In progress -- Stage 04, Exploitation
 
 ## Documentation
 1. [Preparation](01-preparation.md)
