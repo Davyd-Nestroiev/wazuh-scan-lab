@@ -1,4 +1,4 @@
-# wazuh-scan-lab
+# Wazuh-scan lab
 Home purple-team project, simulating an attack performed inside a virtual environment, which is then detected and analyzed using the Wazuh SIEM, then contained and remediated following an incident-response process.
 
 ## Overview
