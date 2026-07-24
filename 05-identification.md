@@ -24,6 +24,10 @@ During this stage, the blue team must identify the suspicious traffic using the 
 
 ## Screenshots
 
+### Wazuh manager captured reconnaissance logs
+<img width="830" height="645" alt="Screenshot 2026-07-24 at 14 30 56" src="https://github.com/user-attachments/assets/7ef2ae37-1981-45b7-a9ab-90c10774f148" />
+
+
 ### Wazuh manager captured SQL injection logs
 <img width="826" height="348" alt="Screenshot 2026-07-24 at 14 02 11" src="https://github.com/user-attachments/assets/98e7bbaa-4dbc-41d0-bd25-f09d00bbcb84" />
 
