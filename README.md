@@ -35,4 +35,5 @@ and NIST SP 800-61 / PICERL (defender side):
 5. [Identification](05-identification.md)
 6. [Containment](06-containment.md)
 7. [Eradication & Recovery](07-eradication-recovery.md)
+8. [Post-Incident Activity](08-post-incident-activity.md)
 
