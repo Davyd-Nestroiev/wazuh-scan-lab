@@ -1,4 +1,4 @@
-# Stage 2 -- Reconnaissance
+# Stage 2; Reconnaissance
 
 ## Objective
 
