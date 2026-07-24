@@ -20,8 +20,8 @@ and NIST SP 800-61 / PICERL (defender side):
 3. Vulnerability Analysis — CVE research per exposed service
 4. Exploitation — SQLi against DVWA
 5. Identification — Wazuh detection of the attack
-6. Containment
-7. Eradication & Recovery
+6. Containment -- isolate affected systems to avoid further exploitation
+7. Eradication & Recovery -- removing the vulnerability, and restoring the systems
 8. Post-Incident Activity — lessons learned / report
 
 ## Status 
