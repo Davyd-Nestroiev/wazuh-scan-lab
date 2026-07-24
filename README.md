@@ -15,7 +15,7 @@ This lab simulates a small internal network under attack. Three systems are used
 This project is documented across 8 stages, following PTES (attacker side) 
 and NIST SP 800-61 / PICERL (defender side):
 
-1. Preparation — lab build + baseline
+1. Preparation — lab build + baseline configuration
 2. Reconnaissance / Information Gathering — nmap scans, service enumeration
 3. Vulnerability Analysis — CVE research per exposed service
 4. Exploitation — SQLi against DVWA
