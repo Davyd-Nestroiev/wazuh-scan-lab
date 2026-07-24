@@ -13,7 +13,6 @@ During this stage, the blue team must identify the suspicious traffic using the 
 | 31151 | 10 | Multiple web server 400 error codes from same source IP | T1595.002 – Vulnerability Scanning (Reconnaissance) | 469 |
 | 31168 | 15 | Shellshock attack detected | — | 4 |
 
-
 ### SQL Injection Logs
 
 | Timestamp | Source IP | Rule ID | Level | Description | MITRE ATT&CK | Matched URL |
