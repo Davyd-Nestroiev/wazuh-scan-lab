@@ -33,3 +33,5 @@ and NIST SP 800-61 / PICERL (defender side):
 3. [Vulnerability-Analysis](03-vulnerability-analysis.md)
 4. [Exploitation](04-exploitation.md)
 5. [Identification](05-identification.md)
+6. [Containment](06-containment.md)
+
