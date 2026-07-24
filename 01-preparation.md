@@ -1,4 +1,4 @@
-# Stage 1 -- Preparation
+# Stage 1: Preparation
 
 ## Objective 
 Build a purple-team home lab to safely practice offensive (attack) and defensive (detection/response) workflows, then document the full cycle against PTES (attack side) and NIST SP 800-61 / PICERL (defense side) as a portfolio piece.
@@ -34,5 +34,5 @@ For setup issues encountered along the way and how they were resolved, see [Trou
 Before running any attacks, the Wazuh agent on the victim VM was confirmed active and connected in the dashboard, with no prior alerts generated.
 
 ## Next Step
-Proceed to Reconnaissance — begin identifying live hosts and enumerating exposed services on the target.
+Proceed to Reconnaissance, begin identifying live hosts and enumerating exposed services on the target.
 → [02 - Reconnaissance](02-reconnaissance.md)
