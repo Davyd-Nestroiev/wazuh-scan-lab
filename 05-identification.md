@@ -44,3 +44,6 @@ Analysis of the Wazuh manager logs confirmed detection of both reconnaissance an
 
 
 ## Next Steps 
+The suspicious traffic been identified, and inspeted. Next step is containment, isolating the affected system and preventing further exploitation of the identified vulnerabilities. 
+
+--> 
