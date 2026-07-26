@@ -14,7 +14,7 @@ Eradication was attempted by increasing DVWA's security level from Low to High, 
 
 The system was recovered to an operational state with the security level set to High, but recovery was only partial due to the persisting vulnerability. Full remediation would require replacing the vulnerable query with a parameterised statement.
 
-## Conclusiions 
+## Conclusions 
 - Security controls should be tested, not assumed — DVWA's High security level looked like a fix on the surface but the SQLi payload still worked once tested properly.
   
 - Escaping or restricting input paths isn't the same as fixing a vulnerability - only a code-level fix (parameterized queries) actually closes it.
