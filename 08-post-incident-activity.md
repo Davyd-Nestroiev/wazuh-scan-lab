@@ -7,5 +7,5 @@ During this stage, the incident-response team has to perform post-incident activ
 
 ## Conclusiions 
 
-##Recommendations
+## Recommendations
 
