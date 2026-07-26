@@ -24,4 +24,4 @@ exploitation attempt requires additional steps
 ## Next Steps 
 In the next phase, Stage 8 will cover Post-Incident Activity - documenting the exploited vulnerabilities and drawing lessons for improvement.
 
--->[Post-Incident Activity](08-post-incident-activity.md)
+--> [Post-Incident Activity](08-post-incident-activity.md)
