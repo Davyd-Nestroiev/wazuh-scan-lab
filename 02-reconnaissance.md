@@ -58,4 +58,4 @@ Confirmed /login.php as the login entry point (independent verification); flagge
 ## Next Steps
 Proceed to Vulnerability Analysis — cross-reference identified service versions (OpenSSH 9.6p1, Apache 2.4.54, PHP 8.1.16) against known CVEs to determine exploitability ahead of the Exploitation stage.
 
-→ [03 - Vulnerability Analysis](03-vulnerability-analysis.md)
+--> [03 - Vulnerability Analysis](03-vulnerability-analysis.md)
