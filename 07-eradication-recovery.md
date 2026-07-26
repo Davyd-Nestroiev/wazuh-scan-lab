@@ -22,6 +22,6 @@ exploitation attempt requires additional steps
 <img width="676" height="442" alt="Screenshot 2026-07-26 at 12 09 06" src="https://github.com/user-attachments/assets/92509e4d-b781-4b38-aedd-0b8eee0d04e9" />
 
 ## Next Steps 
-n the next phase, Stage 8 will cover Post-Incident Activity - documenting the exploited vulnerabilities and drawing lessons for improvement.
+In the next phase, Stage 8 will cover Post-Incident Activity - documenting the exploited vulnerabilities and drawing lessons for improvement.
 
 -->[Post-Incident Activity](08-post-incident-activity.md)
