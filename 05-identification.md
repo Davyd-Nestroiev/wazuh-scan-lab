@@ -1,7 +1,7 @@
 # Stage 5: Identification
 
 ## Objectives 
-During this stage, the blue team must identify the suspicious traffic using the Wazuh EDR tool and proceed with response according to the incident response framework.
+During this stage, the blue team must identify the suspicious traffic using the Wazuh SIEM tool and proceed with response according to the incident response framework.
 
 ## Traffic Captured 
 Traffic that been captured using Wazuh dashboard event logs
