@@ -16,11 +16,11 @@ nmap -sV 192.168.99.130: Ran against the confirmed target (4ubrick) to enumerate
 
 ### 3. Web Enumeration
 
-whatweb -a 3 http://192.168.99.130:  Ran a web enumeration scan at aggression level 3 against DVWA — confirmed the application, tech stack, and session cookie behavior.
+whatweb -a 3 http://192.168.99.130: Ran a web enumeration scan at aggression level 3 against DVWA — confirmed the application, tech stack, and session cookie behavior.
 
 ### 4. Web Vulnerability 
 
-nikto -h http://192.168.99.130 — scanned for common misconfigs, outdated software, and missing security headers
+nikto -h http://192.168.99.130: scanned for common misconfigs, outdated software, and missing security headers
 
 ## Findings
 
@@ -32,7 +32,7 @@ Confirmed 4ubrick (192.168.99.130) is live on the subnet, giving a concrete targ
 
 Identified port 80 (Apache 2.4.54) as the active attack surface; SSH on port 22 was ruled out as a vector since it's patched against known CVEs.
 
-### 3. Web Enumeration 
+### 3. Web Enumeration
 
 Confirmed DVWA is running with security level set to "medium" and a PHP 8.1.16 backend — tells the attacker exactly what application and difficulty they're up against, and that the backend version is worth checking for exploit compatibility.
 
