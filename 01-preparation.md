@@ -35,4 +35,5 @@ Before running any attacks, the Wazuh agent on the victim VM was confirmed activ
 
 ## Next Step
 Proceed to Reconnaissance, begin identifying live hosts and enumerating exposed services on the target.
-→ [02 - Reconnaissance](02-reconnaissance.md)
+
+--> [02 - Reconnaissance](02-reconnaissance.md)
